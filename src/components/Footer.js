@@ -1,10 +1,20 @@
 import React from 'react';
-import Icon from ''
+import Icon from './GitHub_Logo.png'
 
 function Footer() {
-  return (
-    <div>Footer</div>
-  )
+    return (
+        <div>
+            <a href="https://github.com/pmgirardi">
+
+                <img src={Icon} alt="github" style={{ height: 50, width: 50 }}>
+
+                </img>
+
+            </a>
+
+            <p>©️ PMG</p>
+        </div>
+    )
 }
 
-export default Footer
+export default Footer;
