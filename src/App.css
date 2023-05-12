@@ -7,7 +7,13 @@
 
 body {
 font-family: "Roboto Condesed" sans-serif; 
+background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+min-height: 100vh;
 }
+
 
 /***************** NAVIGATION ***********************/
 
