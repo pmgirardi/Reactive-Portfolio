@@ -8,8 +8,6 @@ import PortfolioContainer from './components/PortfolioContainer';
 function App() {
     return( 
         <div className="container is-center">
-
-
         <div>
             {}
             <Header />

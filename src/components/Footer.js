@@ -1,29 +1,14 @@
 import React from 'react';
-import Icon from './GitHub_Logo.png';
-import Icon2 from './In-Blue-128.png'
 
 function Footer() {
     return (
-        <div>
-            <a href="https://github.com/pmgirardi">
-
-                <img src={Icon} alt="github" style={{ height: 50, width: 50 }}>
-
-                </img>
-
-            </a>
-
-            <a href="https://www.linkedin.com/in/paige-girardi-441243192/">
-
-              <img src={Icon2} alt="linkedin" style={{ height: 50, width: 50 }}>
-
-              </img>
-
-          </a>
-
-
-            <p>©️ PMG</p>
-        </div>
+<footer className="container py-3 expand-lg bg-dark">
+<div className="contact-btns">
+<a target="_blank" href="mailto:girardipm@gmail.com" className="btn btn-dark col">Email Me</a>
+<a target="_blank" href="https://github.com/pmgirardi" className="btn btn-light col">GitHub</a>
+<a target="_blank" href="https://www.linkedin.com/in/paige-girardi-441243192/" className="btn btn-dark col">LinkedIn</a>
+</div>
+</footer>
     )
 }
 

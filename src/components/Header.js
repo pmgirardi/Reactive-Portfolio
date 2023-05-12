@@ -1,15 +1,15 @@
-import React from 'react'
-import icon from '../components/logo192.png'
+import React from 'react';
+// import logo from '../components/logo-transparent-png.png';
 
-function Header() {
 
+function Header () {
     return (
-        <div>
-            <img src={icon} alt=""/>
-            <p>This image is for the header</p> 
-            
-        </div>
-        
+
+<div>
+
+{/* <a className="header" href="logo"><img src={logo} alt="logo..."/></a> */}
+    <h1>Full-Stack Web Developer</h1>
+  </div>
     );
 }
 

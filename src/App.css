@@ -1,14 +1,15 @@
-/****************************************/
+
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Roboto:wght@100&display=swap');
 
 :root {
-    --primary-white: #fff;
+    --primary-black: black;
 }
 
 body {
-font-family: "Roboto Condesed" sans-serif;
-background-color: black;
+font-family: "Roboto Condesed" sans-serif; 
 }
+
+/***************** NAVIGATION ***********************/
 
 .logo {
     width: 16.25rem;
@@ -34,3 +35,20 @@ nav ul li {
     margin-right: 0.75rem;
     margin-left: 0.75rem;
 }
+
+
+/***************** HEADER ***********************/
+
+.header-wraper {
+    position: relative;
+    /* background: url(/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/components/Header.js) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;    */
+
+}
+
+/***************** ABOUT ME ***********************/
+
+/***************** Portfolio ***********************/
+

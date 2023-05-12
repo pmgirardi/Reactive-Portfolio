@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../components/logo-transparent-png.png';
+// import logo from '../components/logo-transparent-png.png';
 
  
 // Taking variables from props object and assigning variables their own names
@@ -7,7 +7,7 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       {/*remove 'Navbar' and put in brand logo */}
-    <a className="navbar-brand" href="logo"><img src={logo} alt="logo..."/></a>
+    {/* <a className="navbar-brand" href="logo"><img src={logo} alt="logo..."/></a> */}
 
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
