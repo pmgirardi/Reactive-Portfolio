@@ -22,8 +22,8 @@ export default function Portfolio() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Card.Link href="https://whispering-falls-80138.herokuapp.com/" class="card-link">Heroku </Card.Link>
-        <Card.Link href="https://github.com/pmgirardi/PWA-Text-Editor" class="card-link">GitHub</Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://whispering-falls-80138.herokuapp.com/" class="card-link">Heroku </Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://github.com/pmgirardi/PWA-Text-Editor" class="card-link">GitHub</Card.Link>
           </Card.Footer>
       </Card>
       <Card>
@@ -35,8 +35,8 @@ export default function Portfolio() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Card.Link href="https://the-note-taker-by-pg.herokuapp.com/" class="card-link">Heroku </Card.Link>
-        <Card.Link href="https://github.com/pmgirardi/The-Note-Taker" class="card-link">GitHub</Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://the-note-taker-by-pg.herokuapp.com/" class="card-link">Heroku </Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://github.com/pmgirardi/The-Note-Taker" class="card-link">GitHub</Card.Link>
           </Card.Footer>
       </Card>
       <Card>
@@ -48,7 +48,7 @@ export default function Portfolio() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Card.Link href="https://pmgirardi.github.io/The-Traveler-Weather-Dashboard/" class="card-link">GitHub</Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://pmgirardi.github.io/The-Traveler-Weather-Dashboard/" class="card-link">GitHub</Card.Link>
         </Card.Footer>
       </Card>
     </CardGroup>
