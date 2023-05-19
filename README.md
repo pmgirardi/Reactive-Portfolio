@@ -42,8 +42,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Screenshot
-[Screenshots of portfolio]
-![](../Reactive-Portfolio/src/images/Screenshot%202023-05-17%20at%2012.52.21%20PM.png)
+
+![](../Reactive-Portfolio/src/images/portfolioscreenshot.png)
 
 ## Usage:
 
