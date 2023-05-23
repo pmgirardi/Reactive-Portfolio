@@ -1,7 +1,8 @@
 import React from 'react';
-import Text from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/240_F_565526943_JLuB9ztpqm6Q3nJfIwhTyWtHY0Z8HoDB.jpg';
-import Note from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/240_F_565526906_rh1djL5bA1dtLHpc1veiTsori8BciiqP.jpg';
-import Weather from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/240_F_560368902_t77tQTkFmyyKCwQzuP7tsVgMwSzJYWPV.jpg';
+import Book from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/BookSearch.png'
+import Text from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/TextEditor.png';
+import Note from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/NoteTaker.png';
+import Workday from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/Work Day Scheduler.gif';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 
@@ -11,6 +12,19 @@ export default function Portfolio() {
           <h2 className="h2">Projects:</h2>
 
           <CardGroup>
+          <Card>
+        <Card.Img variant="top" src= {Book} /> 
+        <Card.Body>
+          <Card.Title>Book Search App </Card.Title>
+          <Card.Text>
+          A fully functioning Google Books API search engine built with a RESTful API, refactored to be a GraphQL API built with Apollo Server.
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+        <Card.Link rel="noopener noreferrer" href="https://waterhorse.herokuapp.com/" class="card-link">Heroku </Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://github.com/pmgirardi/Book-Search" class="card-link">GitHub</Card.Link>
+          </Card.Footer>
+      </Card>
       <Card>
         <Card.Img variant="top" src= {Text} /> 
         <Card.Body>
@@ -40,16 +54,17 @@ export default function Portfolio() {
           </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src= {Weather} />
+        <Card.Img variant="top" src= {Workday} />
         <Card.Body>
-          <Card.Title>Weather Dashboard</Card.Title>
+          <Card.Title>Time Block Scheduler</Card.Title>
           <Card.Text>
-          A weather forecast application that allows a user to find the current and 5 day forecast of a city.
+          A calendar application that allows a user to save events for each hour of the day.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Card.Link rel="noopener noreferrer" href="https://pmgirardi.github.io/The-Traveler-Weather-Dashboard/" class="card-link">GitHub</Card.Link>
-        </Card.Footer>
+        <Card.Link rel="noopener noreferrer" href="https://pmgirardi.github.io/Time-Block-Schedule/" class="card-link">Deployed App </Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://github.com/pmgirardi/Time-Block-Schedule" class="card-link">Github</Card.Link>
+          </Card.Footer>
       </Card>
     </CardGroup>
 
