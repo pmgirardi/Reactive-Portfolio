@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/Reactive-Portfolio/static/css/main.07705329.css",
-    "main.js": "/Reactive-Portfolio/static/js/main.ec712b00.js",
-    "static/media/240_F_565526906_rh1djL5bA1dtLHpc1veiTsori8BciiqP.jpg": "/Reactive-Portfolio/static/media/240_F_565526906_rh1djL5bA1dtLHpc1veiTsori8BciiqP.deb17a035feb47af2c4b.jpg",
-    "static/media/240_F_565526943_JLuB9ztpqm6Q3nJfIwhTyWtHY0Z8HoDB.jpg": "/Reactive-Portfolio/static/media/240_F_565526943_JLuB9ztpqm6Q3nJfIwhTyWtHY0Z8HoDB.1e57b7c804c5fc760176.jpg",
-    "static/media/240_F_560368902_t77tQTkFmyyKCwQzuP7tsVgMwSzJYWPV.jpg": "/Reactive-Portfolio/static/media/240_F_560368902_t77tQTkFmyyKCwQzuP7tsVgMwSzJYWPV.6f73f04f8f7e5468b51f.jpg",
+    "main.js": "/Reactive-Portfolio/static/js/main.736b117e.js",
+    "static/media/Work Day Scheduler.gif": "/Reactive-Portfolio/static/media/Work Day Scheduler.f1dd5bcc31b9982d37db.gif",
+    "static/media/BookSearch.png": "/Reactive-Portfolio/static/media/BookSearch.a538753864cae68dc1b0.png",
+    "static/media/TextEditor.png": "/Reactive-Portfolio/static/media/TextEditor.841df9d9aad4a53d4902.png",
+    "static/media/NoteTaker.png": "/Reactive-Portfolio/static/media/NoteTaker.b3baf24f17e3c4214a96.png",
     "static/media/1a.png": "/Reactive-Portfolio/static/media/1a.ada3bcab4a53e3a1cda3.png",
     "index.html": "/Reactive-Portfolio/index.html",
     "main.07705329.css.map": "/Reactive-Portfolio/static/css/main.07705329.css.map",
-    "main.ec712b00.js.map": "/Reactive-Portfolio/static/js/main.ec712b00.js.map"
+    "main.736b117e.js.map": "/Reactive-Portfolio/static/js/main.736b117e.js.map"
   },
   "entrypoints": [
     "static/css/main.07705329.css",
-    "static/js/main.ec712b00.js"
+    "static/js/main.736b117e.js"
   ]
 }
