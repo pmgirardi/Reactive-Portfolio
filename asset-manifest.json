@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Reactive-Portfolio/static/css/main.07705329.css",
-    "main.js": "/Reactive-Portfolio/static/js/main.986e091d.js",
+    "main.js": "/Reactive-Portfolio/static/js/main.2238a6f9.js",
+    "static/media/Fantastic-Beasts.png": "/Reactive-Portfolio/static/media/Fantastic-Beasts.09119aaaf1ef4fbaf1fe.png",
     "static/media/Work Day Scheduler.gif": "/Reactive-Portfolio/static/media/Work Day Scheduler.f1dd5bcc31b9982d37db.gif",
     "static/media/BookSearch.png": "/Reactive-Portfolio/static/media/BookSearch.a538753864cae68dc1b0.png",
     "static/media/TextEditor.png": "/Reactive-Portfolio/static/media/TextEditor.841df9d9aad4a53d4902.png",
@@ -10,10 +11,10 @@
     "static/media/1a.png": "/Reactive-Portfolio/static/media/1a.ada3bcab4a53e3a1cda3.png",
     "index.html": "/Reactive-Portfolio/index.html",
     "main.07705329.css.map": "/Reactive-Portfolio/static/css/main.07705329.css.map",
-    "main.986e091d.js.map": "/Reactive-Portfolio/static/js/main.986e091d.js.map"
+    "main.2238a6f9.js.map": "/Reactive-Portfolio/static/js/main.2238a6f9.js.map"
   },
   "entrypoints": [
     "static/css/main.07705329.css",
-    "static/js/main.986e091d.js"
+    "static/js/main.2238a6f9.js"
   ]
 }
