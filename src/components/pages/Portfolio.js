@@ -3,6 +3,7 @@ import Book from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/
 import Text from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/TextEditor.png';
 import Note from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/NoteTaker.png';
 import Workday from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/Work Day Scheduler.gif';
+import fantasticBeasts from '/Users/waterscorpio/UCBootCamp/Assignments/Reactive-Portfolio/src/images/Fantastic-Beasts.png'
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 
@@ -12,6 +13,19 @@ export default function Portfolio() {
           <h2 className="h2">Projects:</h2>
 
           <CardGroup>
+          <Card>
+        <Card.Img variant="top" src= {fantasticBeasts} />
+        <Card.Body>
+          <Card.Title>Group Project: MERN Built Application for Selling Mystical Creatures</Card.Title>
+          <Card.Text>
+          A shopping application that allows customers to explore and purchase a wide range of mythical creatures.
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+        <Card.Link rel="noopener noreferrer" href="https://fantastic-beasts.herokuapp.com/" class="card-link">Deployed App </Card.Link>
+        <Card.Link rel="noopener noreferrer" href="https://github.com/ikaera/Dream-Project" class="card-link">Github</Card.Link>
+          </Card.Footer>
+          </Card>
           <Card>
         <Card.Img variant="top" src= {Book} /> 
         <Card.Body>
