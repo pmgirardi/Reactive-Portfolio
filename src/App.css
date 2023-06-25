@@ -54,7 +54,13 @@ nav ul li {
 
 }
 
-/***************** ABOUT ME ***********************/
+.container {
+    background-color:black;
+    position: relative;
+    min-height: 50vh;
+}
 
-/***************** Portfolio ***********************/
+.text-color {
+    color: whitesmoke
+}
 

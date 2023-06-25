@@ -4,8 +4,8 @@ import Form from 'react-bootstrap/Form';
 
 function ContactMe() {
   return (
-
-    <div> 
+    <div className="container">
+    <div class="text-color">
 <h1 className="text-center py-4 px-4"> Send me a message!</h1>
     <Form className= "px-4 py-4">
       <Form.Group className="mb-3">
@@ -23,10 +23,11 @@ function ContactMe() {
         <Form.Label>Message</Form.Label>
         <Form.Control type="Message" placeholder="Message" />
       </Form.Group>
-      <Button variant="dark" type="submit">
+      <Button variant="btn btn-dark btn-outline-light btn-lg" type="submit">
         Submit
       </Button>
     </Form>
+    </div>
     </div>
   );
 }

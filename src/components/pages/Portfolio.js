@@ -9,8 +9,9 @@ import Card from 'react-bootstrap/Card';
 
 export default function Portfolio() {
   return (
-      <div className='container py-4'>
-          <h2 className="h2">Projects:</h2>
+    <div className='container py-4'>
+    <div class="text-color">
+          <h3 className="text-center mb-3">PROJECTS</h3>
 
           <CardGroup>
           <Card>
@@ -82,7 +83,7 @@ export default function Portfolio() {
       </Card>
     </CardGroup>
 
-
+</div>
 </div>
 
 
