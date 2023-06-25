@@ -12,7 +12,7 @@ export default function Resume() {
  <p class="mb-4">Data Collection, Digitization, Archival Processing, Archival Standards, Records Management, QGIS, Apple Map Application Software, FME, ArcGIS, OpenStreetMap, </p>
  <p class="mb-1"> Survey 123, Microsoft: SharePoint, Word, Excel, and PowerPoint.</p>
 
-<div class="position-absolute bottom-0 mb-5">
+<div class="bottom-0 mt-5 mb-5">
 <a href= {resumepdf} class="btn btn-light btn-outline-dark btn-lg">View Resume</a>
 
 <a href= {resumepdf} download="Paige-Girardi-Resume-2023.pdf">
